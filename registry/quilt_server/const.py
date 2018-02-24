@@ -16,5 +16,3 @@ VALID_EMAIL_RE = re.compile(r'^([^\s@]+)@([^\s@]+)$')
 class PaymentPlan(Enum):
     FREE = 'free'
     INDIVIDUAL = 'individual_monthly_7'
-    BUSINESS_ADMIN = 'business_monthly_490'
-    BUSINESS_MEMBER = 'business_member'
