@@ -252,7 +252,7 @@ const UpdateInfo = ({
       </dd>
       <dt><FormattedMessage {...strings.stats} /></dt>
       <dd>
-        {readableBytes(size)}
+        <span title="deduplicated, uncompressed">{readableBytes(size)}</span>
       </dd>
     </dl>
   </div>
